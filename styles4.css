@@ -1,0 +1,9 @@
+#top{
+    margin: 25px;
+   display: flex;
+   justify-content: center;
+}
+body{
+    background-color: blueviolet;
+    
+}

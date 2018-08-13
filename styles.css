@@ -1,0 +1,75 @@
+#Top{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: blueviolet;
+    
+}
+#events{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+:root {
+    --primaryDark: rgb(0, 0, 0);
+    --primaryLight: #EDEBD7;
+    --accent: rgb(185, 132, 235);
+    --alternate: rgb(252, 221, 47);
+    --addedPadding: 10px;
+}
+#click{
+    display: flex;
+    justify-content: center;
+}
+#main_content{
+    background-color: rgb(185, 132, 235);
+    border: solid 20px rgb(245, 197, 235);
+}
+#copyright{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#Upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+#top_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#top_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#top_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
