@@ -4,6 +4,109 @@
    justify-content: center;
 }
 body{
-    background-color: blueviolet;
-    
+    background-color: blueviolet; 
 }
+#yohan{
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 0, 93)
+}
+#main{
+    margin: auto;
+    background: rgb(185, 132, 235);
+    border: solid 7.5px rgb(245, 197, 235);
+    max-width: 500px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+:root {
+    --primaryDark: rgb(0, 0, 0);
+    --primaryLight: #EDEBD7;
+    --accent: rgb(185, 132, 235);
+    --alternate: rgb(252, 221, 47);
+    --addedPadding: 10px;
+}
+#main_context{
+    margin: auto;
+    background: rgb(185, 132, 235);
+    border: solid 7.5px rgb(245, 197, 235);
+    max-width: 500px;
+
+}
+#top_button{
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#top_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#top_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+#second_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#second_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#second_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+#third_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#third_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#third_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+#fourth_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#fourth_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#fourth_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+

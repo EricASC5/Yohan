@@ -43,7 +43,7 @@ body{
 }
 #main_content{
     background-color: rgb(185, 132, 235);
-    border: solid 20px rgb(245, 197, 235);
+    border: solid 15px rgb(245, 197, 235);
 }
 #copyright{
     display:flex;
@@ -53,7 +53,13 @@ body{
 #Upper{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end
+    justify-content: flex-end;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
 }
 #top_button {
     color: var(--primaryDark);
@@ -73,3 +79,59 @@ body{
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
+#second_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#second_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#second_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+#third_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#third_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#third_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+#fourth_button {
+    color: var(--primaryDark);
+    background-color: var(--accent);
+    font-size: 1.3em;
+    transition: color 300ms ease-in, background-color 300ms ease-in;
+    cursor: pointer;
+}
+
+#fourth_button:hover {
+    background-color: var(--primaryDark);
+    color: var(--accent);
+}
+
+#fourth_button:focus {
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: var(--primarydark);
+}
+
+
