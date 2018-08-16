@@ -6,34 +6,34 @@ function contact(){
     document.location.href="contact.html"
 }
 
-let btn2= document.getElementById("top_button");
-btn2.addEventListener("click", assets);
+// let btn5= document.getElementById("assets_button");
+// btn5.addEventListener("click", assets);
 
-function assets(event){
-    event.preventDefault();
-    document.location.href="assets.html";
-}
+// function assets(event){
+//     event.preventDefault();
+//     document.location.href="assets.html";
+// }
 
-let btn3= document.getElementById("second_button");
-btn3.addEventListener("click",contact2);
+// let btn3= document.getElementById("second_button");
+// btn3.addEventListener("click",contact2);
 
-function contact2(){
-    document.location.href="contact.html"
-}
+// function contact2(){
+//     document.location.href="contact.html"
+// }
 
-let btn4= document.getElementById("third_button");
-btn4.addEventListener("click",games);
+// let btn4= document.getElementById("third_button");
+// btn4.addEventListener("click",games);
 
-function games(){
-    document.location.href="games.html"
-}
+// function games(){
+//     document.location.href="games.html"
+// }
 
-let btn5= document.getElementById("fourth_button");
-btn5.addEventListener("click",navigate);
+// let btn5= document.getElementById("fourth_button");
+// btn5.addEventListener("click",navigate);
 
-function navigate(){
-    document.location.href="about.html"
-}
+// function navigate(){
+//     document.location.href="about.html"
+// }
 //Contact Section 
 // let thrd= document.getElementById("top_button3");
 // thrd.addEventListener("click",home);

@@ -1,11 +1,25 @@
 #top{
     margin: 25px;
    display: flex;
+   flex-direction: column;
    justify-content: center;
+   align-items: center
 }
 body{
     background-color: blueviolet;
     
+}
+#main{
+    background-color: rgb(185, 132, 235);
+    border: solid 15px rgb(245, 197, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #navbar{
     display: flex;
@@ -20,7 +34,7 @@ body{
     --alternate: rgb(252, 221, 47);
     --addedPadding: 10px;
 }
-#top_button{
+#home_button{
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -28,17 +42,17 @@ body{
     cursor: pointer;
 }
 
-#top_button:hover {
+#home_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#top_button:focus {
+#home_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#second_button {
+#assets_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -46,17 +60,17 @@ body{
     cursor: pointer;
 }
 
-#second_button:hover {
+#assets_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#second_button:focus {
+#assets_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#third_button {
+#contact_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -64,17 +78,17 @@ body{
     cursor: pointer;
 }
 
-#third_button:hover {
+#contact_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#third_button:focus {
+#contact_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#fourth_button {
+#games_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -82,12 +96,12 @@ body{
     cursor: pointer;
 }
 
-#fourth_button:hover {
+#games_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#fourth_button:focus {
+#games_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);

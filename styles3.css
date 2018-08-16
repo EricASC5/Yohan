@@ -32,7 +32,7 @@ h1{
     --alternate: rgb(252, 221, 47);
     --addedPadding: 10px;
 }
-#top_button {
+#home_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -40,17 +40,17 @@ h1{
     cursor: pointer;
 }
 
-#top_button:hover {
+#home_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#top_button:focus {
+#home_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#second_button {
+#contact_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -58,17 +58,17 @@ h1{
     cursor: pointer;
 }
 
-#second_button:hover {
+#contact_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#second_button:focus {
+#contact_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#third_button {
+#games_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -76,17 +76,17 @@ h1{
     cursor: pointer;
 }
 
-#third_button:hover {
+#games_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#third_button:focus {
+#games_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#fourth_button {
+#about_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -94,12 +94,13 @@ h1{
     cursor: pointer;
 }
 
-#fourth_button:hover {
+
+#about_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#fourth_button:focus {
+#about_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);

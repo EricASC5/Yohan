@@ -29,18 +29,12 @@ body{
     font-size: 33px;
     text-align: center;
 }
-.number{
-    font-size: 33px;
-    text-align: center;
-}
+
 .email2{
     font-size: 33px;
     text-align: center;
 }
-.number2{
-    font-size: 33px;
-    text-align: center;
-}
+
 h2{
     text-align: center;
 }
@@ -58,7 +52,7 @@ h2{
     max-width: 500px;
 
 }
-#top_button{
+#home_button{
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -66,17 +60,17 @@ h2{
     cursor: pointer;
 }
 
-#top_button:hover {
+#home_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#top_button:focus {
+#home_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#second_button {
+#assets_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -84,17 +78,17 @@ h2{
     cursor: pointer;
 }
 
-#second_button:hover {
+#assets_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#second_button:focus {
+#assets_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#third_button {
+#games_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -102,17 +96,17 @@ h2{
     cursor: pointer;
 }
 
-#third_button:hover {
+#games_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#third_button:focus {
+#games_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
-#fourth_button {
+#about_button {
     color: var(--primaryDark);
     background-color: var(--accent);
     font-size: 1.3em;
@@ -120,12 +114,12 @@ h2{
     cursor: pointer;
 }
 
-#fourth_button:hover {
+#about_button:hover {
     background-color: var(--primaryDark);
     color: var(--accent);
 }
 
-#fourth_button:focus {
+#about_button:focus {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
